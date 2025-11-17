@@ -1,0 +1,1 @@
+import{defineConfig}from"vite";export default defineConfig({build:{target:"esnext",outDir:"build"},server:{proxy:{"/api":"http://127.0.0.1:5000"},host:!0,port:3e3,open:!0}});

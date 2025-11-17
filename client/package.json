@@ -1,0 +1,24 @@
+{
+      "name": "Software-Readvanced",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+            "@tailwindcss/vite": "^4.1.16"
+      },
+      "devDependencies": {
+            "@types/node": "^20.10.0",
+            "@types/react": "^19.2.2",
+            "@types/react-dom": "^19.2.1",
+            "@vitejs/plugin-react-swc": "^3.10.2",
+            "autoprefixer": "^10.4.21",
+            "postcss": "^8.5.6",
+            "tailwindcss": "^4.1.16",
+            "vite": "^6.3.5",
+            "vite-plugin-pwa": "^1.1.0"
+      },
+      "scripts": {
+            "dev": "vite",
+            "build": "vite build",
+            "serve": "vite preview"
+      }
+}
